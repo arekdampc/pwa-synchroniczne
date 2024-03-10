@@ -6,6 +6,7 @@
 <br>
 <br>
     <PromoCarrousel/>
+        <Products />
   <slot />
   <Footer />
 </template>

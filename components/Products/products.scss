@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    margin-top:10px;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .big-div {
+    height: 520px;
+    width: 240px;
+    //flex-basis: 200px;
+    background: linear-gradient(159.53deg, rgba(210, 193, 249, 0.2) -2.26%, rgba(255, 255, 255, 0) 56.06%), linear-gradient(0.4deg, rgba(105, 48, 240, 0.1) -6.94%, rgba(248, 248, 248, 0) 69.85%);
+    padding: 10px;
+    margin-bottom: 10px;
+
+    border: 1px solid rgb(235, 228, 253);
+    border-radius: 16px;
+    //overflow: hidden;
+    box-sizing: inherit;
+    padding: 0px;
+    //margin-left: 100px;
+  }
+  
+  .small-div {
+    //flex-basis: 40px;
+    background-color: lightcoral;
+    //padding: 10px;
+    height: 60px;
+    width: 240px;
+    border: 1px solid rgb(235, 228, 253);
+    border-radius: 16px;
+    //overflow: hidden;
+    
+    background: linear-gradient(159.53deg, rgba(210, 193, 249, 0.2) -2.26%, rgba(255, 255, 255, 0) 56.06%), linear-gradient(0.4deg, rgba(105, 48, 240, 0.1) -6.94%, rgba(248, 248, 248, 0) 69.85%);
+
+  }
+  
+  .product-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    flex-basis: calc(25% - 20px); /* 25% width z marginesem */
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-sizing: border-box;
+  }

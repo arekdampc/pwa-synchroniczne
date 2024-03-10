@@ -1,0 +1,46 @@
+.header {
+  margin: 30px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-around;
+  height: 40px;
+  width: auto;
+}
+.search-button {
+  border: none;
+  height: 100%;
+  width: 64px;
+  fill: white;
+  background-color: rgb(68, 68, 68);
+  border-radius: 8px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  height: 90px;
+}
+.navbar > .container {
+  width: auto;
+}
+.nav-hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar-bottom {
+  margin: 0px 30px 30px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

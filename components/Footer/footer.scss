@@ -1,0 +1,99 @@
+.footer {
+    background-color: #ffffff;
+    padding: 40px 20px; /* Zmiana paddingu dla responsywności */
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+
+    .footer_section {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; /* Dodanie wrap dla responsywności */
+
+        .footer_hyperlinks {
+            display: flex;
+            flex-direction: row;
+            margin: 0 10px; /* Zmiana marginesu dla responsywności */
+            gap: 100px;
+            h3 {
+                color: #333;
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+
+            ul {
+                list-style: none;
+
+                li {
+                    margin-bottom: 5px;
+
+                    a {
+                        text-decoration: none;
+                        color: #555;
+
+                        &:hover {
+                            color: #007bff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contact {
+            .contact_info {
+                h3 {
+                    color: #333;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    margin-bottom: 5px;
+                }
+
+                .social_media {
+                    a {
+                        display: inline-block;
+                        margin-right: 10px;
+
+                        img {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .payments {
+        width: 100%; /* Zmiana szerokości dla responsywności */
+        max-width: 800px; /* Maksymalna szerokość */
+        margin: 0 auto; /* Centrowanie diva */
+
+        .payments_images {
+            display: flex;
+            justify-content: center; /* Wyśrodkowanie obrazków w poziomie */
+            align-items: center; /* Wyśrodkowanie obrazków w pionie */
+            gap: 10px; /* Odstęp między obrazkami */
+
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+
+    .footer_info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Dodanie wrap dla responsywności */
+        
+        p {
+            text-align: center;
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+    }
+}

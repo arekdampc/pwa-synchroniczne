@@ -1,6 +1,6 @@
 <template>
-    <TopNav/>
-    <Carrousel />
-      <slot/>
-    <Footer/>
+  <Header />
+  <Carrousel />
+  <slot />
+  <Footer />
 </template>

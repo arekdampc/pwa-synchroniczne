@@ -1,0 +1,46 @@
+{
+    "carrousel": [
+        {
+            "id": 1,
+            "src": "/carrousel/smartfony-motorola.png",
+            "caption": "Smartfony Motorola",
+            "alt": "Smartfony Motorola"
+          },
+          {
+            "id": 2,
+            "src": "/carrousel/sprzet-rtv-promocja.png",
+            "caption": "Sprzęt RTV Promocja",
+            "alt": "Sprzęt RTV Promocja"
+          },
+          {
+            "id": 3,
+            "src": "/carrousel/laptop-nauczyciele.png",
+            "caption": "Laptop dla nauczyciela",
+            "alt": "Laptop dla nauczyciela"
+          },
+          {
+            "id": 4,
+            "src": "/carrousel/premiera-nothing-phone.png",
+            "caption": "Premiera Nothing Phone (2a)",
+            "alt":"Premiera Nothing Phone (2a)"
+          },
+          {
+            "id": 5,
+            "src": "/carrousel/dzien-kobiet.png",
+            "caption": "Otwarte na każdą okazję",
+            "alt": "Dzien Kobiet"
+          },
+          {
+            "id": 6,
+            "src": "/carrousel/lenovo-tab.png",
+            "caption": "Lenovo Tab M11 8GB",
+            "alt": "Lenovo Tab"
+          },
+          {
+            "id": 7,
+            "src": "/carrousel/lego.png",
+            "caption": "LEGO na Dzień Kobiet",
+            "alt": "LEGO"
+          }
+    ]
+  }

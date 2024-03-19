@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import { useFetch } from '#app';
 
 interface Image {
   id: number;
@@ -8,50 +9,7 @@ interface Image {
   alt: string;
 }
 
-const images: Image[] = ref([
-  {
-    id: 1,
-    src: '/carrousel/smartfony-motorola.png',
-    caption: 'Smartfony Motorola',
-    alt: 'Smartfony Motorola',
-  },
-  {
-    id: 2,
-    src: '/carrousel/sprzet-rtv-promocja.png',
-    caption: 'Sprzęt RTV Promocja',
-    alt: 'Sprzęt RTV Promocja',
-  },
-  {
-    id: 3,
-    src: '/carrousel/laptop-nauczyciele.png',
-    caption: 'Laptop dla nauczyciela',
-    alt: 'Laptop dla nauczyciela',
-  },
-  {
-    id: 4,
-    src: '/carrousel/premiera-nothing-phone.png',
-    caption: 'Premiera Nothing Phone (2a)',
-    alt: 'Premiera Nothing Phone (2a)',
-  },
-  {
-    id: 5,
-    src: '/carrousel/dzien-kobiet.png',
-    caption: 'Otwarte na każdą okazję',
-    alt: 'Dzien Kobiet',
-  },
-  {
-    id: 6,
-    src: '/carrousel/lenovo-tab.png',
-    caption: 'Lenovo Tab M11 8GB',
-    alt: 'Lenovo Tab',
-  },
-  {
-    id: 7,
-    src: '/carrousel/lego.png',
-    caption: 'LEGO na Dzień Kobiet',
-    alt: 'LEGO',
-  },
-]);
+const { data: images, pending, error } = useFetch<Image[]>('http://localhost:3001/carrousel');
 
 const activeIndex = ref(0);
 const startX = ref(0);
@@ -90,7 +48,7 @@ const setActiveIndex = (index: number) => {
 </script>
 
 <template>
-  <div class="carousel">
+  <div class="carousel" v-if="!pending && !error">
     <div
       class="carousel-container"
       @touchstart="startSwipe"
@@ -124,6 +82,8 @@ const setActiveIndex = (index: number) => {
       </span>
     </div>
   </div>
+  <div v-if="pending">Ładowanie...</div>
+  <div v-if="error">Wystąpił błąd podczas ładowania danych: {{ error.message }}</div>
 </template>
 
 <style lang="scss" scoped>

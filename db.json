@@ -1,0 +1,84 @@
+{
+    "carrousel": [
+        {
+            "id": 1,
+            "src": "/carrousel/smartfony-motorola.png",
+            "caption": "Smartfony Motorola",
+            "alt": "Smartfony Motorola"
+        },
+        {
+            "id": 2,
+            "src": "/carrousel/sprzet-rtv-promocja.png",
+            "caption": "Sprzęt RTV Promocja",
+            "alt": "Sprzęt RTV Promocja"
+        },
+        {
+            "id": 3,
+            "src": "/carrousel/laptop-nauczyciele.png",
+            "caption": "Laptop dla nauczyciela",
+            "alt": "Laptop dla nauczyciela"
+        },
+        {
+            "id": 4,
+            "src": "/carrousel/premiera-nothing-phone.png",
+            "caption": "Premiera Nothing Phone (2a)",
+            "alt": "Premiera Nothing Phone (2a)"
+        },
+        {
+            "id": 5,
+            "src": "/carrousel/dzien-kobiet.png",
+            "caption": "Otwarte na każdą okazję",
+            "alt": "Dzien Kobiet"
+        },
+        {
+            "id": 6,
+            "src": "/carrousel/lenovo-tab.png",
+            "caption": "Lenovo Tab M11 8GB",
+            "alt": "Lenovo Tab"
+        },
+        {
+            "id": 7,
+            "src": "/carrousel/lego.png",
+            "caption": "LEGO na Dzień Kobiet",
+            "alt": "LEGO"
+        }
+    ],
+    "promo-carrousel": [
+        {
+            "image": "promoCarrousel/prom1.png",
+            "caption": "SUPERszybkie, SUPERmocne. Poznaj nowe karty graficzne."
+        },
+        {
+            "image": "promoCarrousel/prom2.png",
+            "caption": "Kup Samsung Galaxy S24"
+        },
+        {
+            "image": "promoCarrousel/prom3.png",
+            "caption": "MacBook Air"
+        },
+        {
+            "image": "promoCarrousel/prom4.png",
+            "caption": "Premiera Nothing Phone (2a)"
+        },
+        {
+            "image": "promoCarrousel/prom5.png",
+            "caption": "Premiera Xiaomi 14 Ultra"
+        },
+        {
+            "image": "promoCarrousel/prom6.png",
+            "caption": "Goździk to za mało?"
+        },
+        {
+            "image": "promoCarrousel/prom7.png",
+            "caption": "Premiera SPARK 20 PRO+"
+        },
+        {
+            "image": "promoCarrousel/prom8.png",
+            "caption": "Graj, jak chcesz"
+        },
+        {
+            "image": "promoCarrousel/prom9.png",
+            "caption": "Zgarnij mysz TUF Gaming M4 Air"
+        }
+    ]
+}

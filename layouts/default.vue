@@ -8,5 +8,6 @@
     <PromoCarrousel/>
         <Products />
   <slot />
+  <Timer />
   <Footer />
 </template>

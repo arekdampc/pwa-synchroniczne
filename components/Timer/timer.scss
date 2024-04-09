@@ -1,0 +1,78 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #000; /* Czarny kolor czcionki */
+}
+
+.time-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 0 10px; /* Górny 10px, dolny 0px, lewy 10px, prawy 10px */
+  background-color: #ccc; /* Szary kolor tła */
+  border-radius: 8px; /* Zaokrąglone rogi */
+  padding: 8px; /* Dodaj odstępy */
+  width: 40px; /* Szerokość kwadratów */
+  height: 40px; /* Wysokość kwadratów */
+}
+
+.separator {
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+.time-label {
+  font-size: 12px; /* Mniejsza czcionka dla etykiet */
+  color: #888; /* Szary kolor etykiet */
+  margin-top: 2px; /* Jeszcze bardziej obniż etykiety */
+  text-align: center; /* Wycentruj etykiety w poziomie */
+}
+
+/* Nowe style */
+.laptop-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Wyśrodkuj elementy w lewo */
+  border: 4px solid black; /* Ramka z czarnym kolorem */
+  border-top-color: rgb(136, 3, 3);
+  border-bottom-color: rgb(136, 3, 3);
+  border-left-color: linear-gradient(magenta 20%, black 60%, magenta 20%);
+  border-radius: 10px; /* Zaokrąglone rogi ramki */
+  padding: 10px; /* Dodaj odstępy wewnątrz ramki */
+  width: 250px; /* Szerokość ramki */
+  margin-left: 75px; /* Odsunięcie od lewej strony */
+  margin-bottom: 20%; /* Odsunięcie od dolnej krawędzi */
+  
+}
+
+.hot-shot {
+  color: #000;
+  font-size: 18px; /* Rozmiar tekstu "GORĄCY STRZAŁ" */
+  font-weight: bold; /* Pogrubienie tekstu */
+  margin-top: 5px; /* Odstęp nad tekstem */
+}
+
+.opis {
+  color: #363535;
+  font-size: 14px; /* Rozmiar opisu */
+  margin-top: 5px; /* Odstęp nad tekstem */
+  text-align: center;
+}
+
+.cena {
+  color: #000;
+  font-size: 22px; /* Rozmiar ceny */
+  font-weight: bold; /* Pogrubienie tekstu */
+  margin-top: 5px; /* Odstęp nad tekstem */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.laptop-image {
+  width: 250px; /* Szerokość obrazka laptopa */
+  height: auto; /* Automatyczna wysokość obrazka */
+  margin-top: 5px; /* Odstęp nad obrazkiem */
+}
